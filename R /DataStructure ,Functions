@@ -1,0 +1,26 @@
+Functions DataStructures in R 
+
+Core datastreuctures 
+months <- array(c("Jan" , "feb" , "march" , "april, "may"  , "june" , "july") , dim = c(3,4)))
+
+The synatx for the array data sturct : array(c(collection function) , lenght/dimentonal value))
+
+The error of the not fully closed paranthesis is shown using the + sign in R. 
+
+The above line of the code creates a marix of 3*4 length that has the input or the paramters as collecion of the name of the months. 
+
+There is difference in teh array and the simple list function   :
+
+months <- c(name of months)
+months <-array(c(name  of months) , dim = (1,12))
+The first one is a list of name of the months whereas the second one is a 1*12 len sized array . 
+
+Howeveer the matrix can also be formed using the built in function of matrix(data , dim) function :
+
+months_matrix   = matrix(data =c(some name) , dim  =(2,2))
+ above is a 2 cross 2 matrix  .
+
+The matrix can also be formed using the matrix(data , row , columns)  functiosn as well .
+
+
+Making of a 3D array : 
