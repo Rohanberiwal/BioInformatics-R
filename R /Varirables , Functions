@@ -1,0 +1,64 @@
+R Programming Language 
+This is mainly used in the field of Data Science . 
+# is to use to annotote in the R language .
+For the R studio we get the output of each of the command wiht the line number and with the Input commad that has been provided. 
+
+Variable in R :
+How to store the week in the variabale :
+days<- c("Monday" , "tuesday")
+
+# The letter c means the days are collection of the variables that are stored inside this . 
+#The <- means the right hand side is stroed in the left hand side part.
+
+For getting the output as Tuesday : the command that has to written as is  :
+days(1)
+
+The days in the variable storing is similar to the listing in the python : if we wish to get the output of the above as a list then  :
+
+days[0:1] // both the monday and tuesday will be printed. 
+To get the collection of the day as the output then we are supposed to use  :
+
+days<-c("Monday" , "Tuesday" , "Wednesday",  "Thursday" , "Friday" , "Satruday" , "Sunday")
+days[c(1,3,5,7)]
+ 
+Ouptut of the above is : Monday , Wednesday , Fridya and Sunday 
+
+Taking out the subset out of days:
+#Contianer type is weekdays :
+
+# Printing the subset of days using the print() command
+Weekdays<-days[1:5] 
+print(weekdays)
+
+Functions in R :
+
+Funtion_name(argument1 , argument2  , argument3 .... argumentn)
+
+The arguments here are the condition that we are asking the R to evaluate . 
+Exmaple tio the above is  :
+
+exampleFunction <- function(x,y)
+	{c(x+1,y+10)}
+#The indentation is very important in the feild of R 
+
+exampleFunction(10,20)
+
+#output of the above is 21,30 collecition of that 
+There are some of Built In function in R for for exmple : exp() exponentail function
+
+Built-In functions: 
+exp()-> exponential functions 
+tan() -> tangents
+log() ->logarithms
+
+Some advanced information about these are given in the documentation of R. 
+Command to get the information about the Functions  :
+
+Termainal-> ?log()
+Termianal -> ?tan()
+
+How to change the base of the log funtion ?
+Log(x=12, base =10 )
+log(x=100 , base =112)
+
+#using the sepcicification of the  base and the x .
