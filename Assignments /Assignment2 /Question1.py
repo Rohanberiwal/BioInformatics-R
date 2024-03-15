@@ -1,8 +1,12 @@
 from Bio import Entrez
-from Bio import SeqIO
-Entrez.email = "rohanberiwal.email@example.com" 
+
+Entrez.email = "rohanberiwal@gmail.com"
 query = '"Saccharomyces cerevisiae"[Organism] AND pyruvate decarboxylase[PDC]'
-accession_list = []
+accession_list = {
+    "NC_001144.5": (232390, 234081),
+    "NC_001139.9": (651290, 652981),
+    "NC_001144.5 PDC Gene 1": (410723, 412414)
+}
 
 def cleaner(filename):
     with open(filename, "w") as f:
@@ -21,36 +25,20 @@ def writer(accession_number, sequence, filename):
         f.write("DNA Sequence :  \n")
         f.write(str(sequence) + "\n\n")
 
-def func(filename):
-    try:
-        handle = Entrez.esearch(db="nucleotide", term=query, retmax=100)  
-        record = Entrez.read(handle)
-        handle.close()
+def func(accession_number, start, end):
+    handle = Entrez.efetch(db="nucleotide", id=accession_number, rettype="fasta", retmode="text", seq_start=start, seq_stop=end)
+    record = handle.read()
+    handle.close()
+    return record
 
-        if record["Count"] == "0":
-            liststore = []
-        else:
-            liststore = record["IdList"]
-            
-        for accession_number in liststore:
-            accession_list.append(accession_number)
-            handle = Entrez.efetch(db="nucleotide", id=accession_number, rettype="fasta", retmode="text")
-            pdc_seq = SeqIO.read(handle, "fasta")
-            handle.close()
-            printer(accession_number, pdc_seq.seq)
-            writer(accession_number, pdc_seq.seq, filename)
-
-        return len(accession_list)
-
-    except Exception as e:
-        print("Error:")
-        print(e)
-        return None
-
-def main() :
-    filename="Sequences.txt"
-    cleaner(filename)
-    accession_count = func(filename)
-    print("Total count:", accession_count)
+def main():
+    output_filename = "output.txt"
+    cleaner(output_filename)
+    for accession_number, index_range in accession_list.items():
+        start, end = index_range
+        sequence = func(accession_number, start, end)
+        writer(accession_number, sequence, output_filename)
+        printer(accession_number, sequence)
 
 main()
+
