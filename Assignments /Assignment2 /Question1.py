@@ -1,5 +1,4 @@
 from Bio import Entrez
-
 Entrez.email = "rohanberiwal@gmail.com"
 query = '"Saccharomyces cerevisiae"[Organism] AND pyruvate decarboxylase[PDC]'
 accession_list = {
