@@ -13,7 +13,7 @@ Unraveling the complexity of cystic fibrosis through bioinformatics: from identi
 
 4. When the CFTR gene is mutated, the function of the CFTR protein is impaired, leading to abnormal chloride transport across cell membranes. These mutations can affect different aspects of CFTR protein function, including its production, stability, trafficking within the cell, and activity as a chloride channel.
 
-## How is Cystic Fibrosis spread  When the Gene is Mutated?
+## Aspected related to Cystic Fibrosis  
 
 ### 1. Genomic Aspect:
 
