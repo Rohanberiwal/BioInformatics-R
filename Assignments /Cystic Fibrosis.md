@@ -108,4 +108,26 @@ In cystic fibrosis (CF), in addition to mutations in the CFTR gene, there can be
 
 These additional genetic and molecular factors contribute to the complexity and variability of CF phenotypes and disease progression. Understanding them is crucial for developing effective treatments and improving outcomes for CF patients.
 
+# Potential Drugs and medicines 
+
+CFTR modulators are medications used to treat cystic fibrosis (CF) by targeting the underlying genetic defect in the CFTR gene. Here's an explanation of some commonly used CFTR modulators:
+
+1. **Ivacaftor (Kalydeco):**
+   - Ivacaftor is a CFTR potentiator that enhances the function of defective CFTR protein.
+   - Indicated for CF patients with specific CFTR mutations, such as G551D, G1244E, G1349D, G178R, G551S, S1251N, S1255P, S549N, or S549R.
+   - Improves chloride transport across epithelial cell membranes, leading to increased hydration of airway surfaces and improved mucociliary clearance.
+   - Typically used as monotherapy in CF patients aged 6 months and older with specific CFTR mutations.
+
+2. **Lumacaftor/Ivacaftor (Orkambi):**
+   - Combination therapy consisting of lumacaftor, a CFTR corrector, and ivacaftor, a CFTR potentiator.
+   - Lumacaftor corrects the processing and trafficking of defective CFTR protein to the cell surface.
+   - Ivacaftor potentiates the function of the corrected CFTR protein.
+   - Indicated for CF patients aged 2 years and older who have two copies of the F508del mutation in the CFTR gene.
+
+3. **Tezacaftor/Ivacaftor (Symdeko/Symkevi):**
+   - Combination therapy comprising tezacaftor, a CFTR corrector, and ivacaftor, a CFTR potentiator.
+   - Tezacaftor corrects the processing and trafficking of defective CFTR protein, while ivacaftor enhances its function.
+   - Approved for CF patients aged 6 years and older who have two copies of the F508del mutation or at least one residual function mutation in the CFTR gene.
+
+CFTR modulators revolutionize CF treatment by targeting the underlying genetic defect, improving CFTR protein function, alleviating symptoms, and reducing disease progression.
 
