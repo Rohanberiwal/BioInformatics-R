@@ -61,7 +61,7 @@ Unraveling the complexity of cystic fibrosis through bioinformatics: from identi
    
 # Mechanism of Bacterial Pathogenesis in Cystic Fibrosis
 
-In cystic fibrosis, the mechanism of bacterial colonization and infection primarily affects the respiratory system, leading to disease progression and exacerbation of symptoms. Here's an explanation of how bacteria contribute to the pathology of cystic fibrosis:
+In cystic fibrosis, the mechanism of bacterial colonization and infection primarily affects the respiratory system, leading to disease progression and exacerbation of symptoms  .Some of  the impacts are  :
 
 1. **Respiratory Tract Colonization:**
    - Cystic fibrosis patients have thick, sticky mucus in their airways due to dysfunctional CFTR protein.
