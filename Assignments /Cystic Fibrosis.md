@@ -161,7 +161,8 @@ In cystic fibrosis (CF), in addition to mutations in the CFTR gene, there can be
 
 # Some common CFTR modulators
 
-CFTR modulators are medications used to treat cystic fibrosis (CF) by targeting the underlying genetic defect in the CFTR gene. Here's an explanation of some commonly used CFTR modulators:
+CFTR modulators are medications used to treat cystic fibrosis (CF) by targeting the underlying genetic defect in the CFTR gene. CFTR modulators revolutionize CF treatment by targeting the underlying genetic defect, improving CFTR protein function, alleviating symptoms, and reducing disease progression. Some of them ar :
+
 
 1. **Ivacaftor (Kalydeco):**
    - Ivacaftor is a CFTR potentiator that enhances the function of defective CFTR protein.
@@ -180,5 +181,5 @@ CFTR modulators are medications used to treat cystic fibrosis (CF) by targeting 
    - Tezacaftor corrects the processing and trafficking of defective CFTR protein, while ivacaftor enhances its function.
    - Approved for CF patients aged 6 years and older who have two copies of the F508del mutation or at least one residual function mutation in the CFTR gene.
 
-CFTR modulators revolutionize CF treatment by targeting the underlying genetic defect, improving CFTR protein function, alleviating symptoms, and reducing disease progression.
+
 
