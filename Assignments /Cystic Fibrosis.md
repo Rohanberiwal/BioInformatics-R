@@ -108,7 +108,41 @@ In cystic fibrosis (CF), in addition to mutations in the CFTR gene, there can be
 
 These additional genetic and molecular factors contribute to the complexity and variability of CF phenotypes and disease progression. Understanding them is crucial for developing effective treatments and improving outcomes for CF patients.
 
-# Potential Drugs and medicines 
+
+# Mechanism of Action of Drugs in Cystic Fibrosis Treatment
+
+## CFTR Modulators:
+- **Correctors:**
+  - Correctors target defective CFTR proteins that are misfolded or improperly processed within the cell.
+  - By binding to the mutant CFTR protein, correctors help facilitate proper folding and trafficking of the protein to the cell membrane.
+  - This process enhances the localization of functional CFTR channels to the cell surface, improving chloride ion transport.
+
+- **Potentiators:**
+  - Potentiators act on CFTR proteins already present at the cell membrane.
+  - By binding to and opening the CFTR channel, potentiators increase the activity of functional CFTR channels.
+  - This augmentation of CFTR channel function enhances chloride ion transport across the cell membrane, promoting proper hydration of epithelial surfaces.
+
+## Antibiotics:
+- **Target Bacterial Infections:**
+  - Antibiotics target specific bacterial pathogens commonly found in the respiratory tract of CF patients, such as Pseudomonas aeruginosa and Staphylococcus aureus.
+  - These antibiotics disrupt bacterial cell wall synthesis, protein synthesis, or DNA replication, ultimately leading to bacterial cell death.
+  - By eliminating bacterial infections, antibiotics reduce inflammation and prevent exacerbations of lung disease.
+
+## Mucolytics:
+- **Thin and Loosen Mucus:**
+  - Mucolytics work by breaking down the components of thick, sticky mucus present in the airways of CF patients.
+  - They cleave DNA strands released by neutrophils and disrupt the disulfide bonds within mucin molecules, reducing mucus viscosity.
+  - Thinner mucus is easier to clear from the airways, improving airflow and reducing the risk of respiratory infections.
+
+## Bronchodilators:
+- **Relax Airway Smooth Muscles:**
+  - Bronchodilators act by relaxing the smooth muscles surrounding the airways.
+  - This relaxation leads to the dilation of bronchioles, improving airflow and reducing airway resistance.
+  - Bronchodilators alleviate symptoms of bronchoconstriction, such as wheezing and shortness of breath.
+
+
+
+# Some common CFTR modulators
 
 CFTR modulators are medications used to treat cystic fibrosis (CF) by targeting the underlying genetic defect in the CFTR gene. Here's an explanation of some commonly used CFTR modulators:
 
